@@ -1,0 +1,118 @@
+.reviews-subtitle {
+    padding-top: 150px;
+    margin-bottom: 54px;
+    
+}
+
+.reviews-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review-column {
+    width: calc(50% - 25px);
+}
+
+.review-column:last-child:nth-child(odd) {
+    width: 861px;
+    margin-bottom: 77px;
+}
+
+.review-column p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 80px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.review-name {
+    height: 61px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 64px;
+    letter-spacing: -0.03em;
+    margin-left: -3px;
+    margin-bottom: 14px;
+    color: #000000;
+}
+
+
+@media (max-width: 1199px) {
+
+    .reviews-subtitle {
+        padding-top: 119px;
+        margin-bottom: 55px;    
+    }
+
+    .reviews-wrapper{
+        justify-content: space-between;
+    }
+
+    .review-name {
+        height: 48px;
+        line-height: 48px;
+        font-size: 35px;
+        margin-bottom: 25px;   
+    }
+
+    .review-column {
+        width: calc(50% - 5px);
+        margin-right: 0;
+    }
+
+    .review-column:nth-child(2n) {
+        width: calc(50% - 5px);
+    }
+    
+    .review-column:last-child:nth-child(odd) {
+        width: 694px;
+        margin-bottom: 40px;
+    }
+    
+    .review-column p {
+        line-height: 27px;
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+
+}
+
+
+@media (max-width: 767px){
+    
+    .reviews-subtitle {
+        padding-top: 75px;
+        margin-bottom: 45px;
+        font-size: 14px;    
+    }
+
+    .review-name {
+        height: 34px;
+        line-height: 34px;
+        font-size: 25px;
+        margin-bottom: 10px; 
+        margin-left: 1px;  
+    }
+
+    .review-column {
+        width: 100%;
+    }
+
+    .review-column:nth-child(2n) {
+        width: 100%;
+    }
+    
+    .review-column:last-child:nth-child(odd) {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    
+    .review-column p {
+        line-height: 22px;
+        font-size: 16px;
+        margin-bottom: 77px;
+    }
+}

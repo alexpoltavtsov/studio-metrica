@@ -1,0 +1,59 @@
+@import "./header.css";
+@import "./description.css";
+@import "./presentation.css";
+@import "./price.css";
+@import "./reviews.css";
+@import "./project-gallery.css";
+@import "./contacts.css";
+@import "./footer.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+ 
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    
+}
+
+h2{
+    height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    letter-spacing: -0.03em;
+}
+
+
+
+
+
+@media (max-width: 1199px) {
+
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .container {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        
+    }
+
+}

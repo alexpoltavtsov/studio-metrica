@@ -1,0 +1,177 @@
+h1 {
+    width: 956px;
+    Height: 120px;
+    font-Weight: 400px;
+    font-Size: 60px;
+    Line-height: 60px;
+    margin-bottom: 30px;
+    color: #000000;
+    letter-spacing: -0.03em;
+}
+
+.description-photo {
+
+    height: 500px;
+    overflow-x: hidden;
+    background-image: url('../resources/armchair1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 149px;
+    position: relative;
+}
+
+.description-position {
+
+    width: 430px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    letter-spacing: -0.03em;
+}
+
+.description-subtitle {
+    margin-bottom: 31px;
+}
+
+.description-article {
+    height: 366px;
+    width: 1048px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;
+    margin-bottom: 28px;
+    margin-left: 2px;
+    letter-spacing: -0.03em;
+}
+
+.description-button {
+    display: block;
+    width: 253px;
+    height: 68px;
+    text-align: center;
+    line-height: 67px;
+    font-weight: 400;
+    font-size: 20px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #AD1818;
+    color: #FFFFFF;
+    margin-bottom: 149px;
+    letter-spacing: -0.03em;
+}
+
+
+@media (max-width: 1199px) {
+
+    h1 {
+        width: 802px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .description-photo {
+        height: 400px;
+        margin-bottom: 120px;
+        background-image: url('../resources/armchair1table.jpg');
+    }
+
+    .description-position {
+        width: 430px;
+        font-size: 20px;
+        line-height: 27px;
+        bottom: 30px;
+    }
+
+    .description-subtitle {
+        height: 25px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .description-article {
+        width: 690px;
+        height: auto;
+        font-size: 35px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    .description-button {
+        width: 255px;
+        height: 67px;
+        line-height: 67px;
+        font-size: 20px;
+        margin-bottom: 120px;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width: 820px) {
+    h1 {
+        width: 100%;
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .description-photo {
+        height: 304px;
+        margin-bottom: 80px;
+    }
+
+    .description-position {
+        width: 312px;
+        font-size: 16px;
+        line-height: 22px;
+        left: 15px;
+        bottom: 15px;
+    }
+
+    .description-subtitle {
+        height: 19px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .description-article {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .description-button {
+        width: 100%;
+        height: 51px;
+        line-height: 51px;
+        font-size: 16px;
+        margin-bottom: 80px;
+        border-radius: 3.8px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    h1 {
+        width: 300px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .description-photo {
+        background-image: url('../resources/armchair1mobile.jpg');
+        
+    }
+}

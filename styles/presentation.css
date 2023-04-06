@@ -1,0 +1,159 @@
+.presentation-subtitle {
+    margin-bottom: 31px;
+    
+}
+
+.presentation-blok {
+    margin-bottom: 91px;
+}
+
+.presentation-img {
+    margin-bottom: 18px;
+}
+
+.presentation-name-img {
+    margin-bottom: 11px;
+    Height: 41px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+.presentation-btn {
+    Height: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 2px;
+    font-family: 'Manrope';
+    font-style: normal;
+    text-decoration: none;
+    color: #AD1818;
+    letter-spacing: -0.03em;
+}
+
+.presentation-button {
+    display: block;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    Width: 100%;
+    Height: 153px;
+    text-align: center;
+    line-height: 153px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #AD1818;
+    text-decoration: none;
+    margin: 0 auto 150px;
+    letter-spacing: -0.03em;
+
+}
+
+.presentation-button:hover {
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 1199px) {
+
+    .presentation-subtitle {
+        height: 25px;
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    .presentation-blok {
+        margin-bottom: 80px;
+    }
+
+    .item {
+        margin-bottom: 102px;
+    }
+
+    .presentation-img {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 13px;
+        object-fit: cover;
+    }
+
+
+    .presentation-name-img {
+        Height: 34px;
+        font-size: 25px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
+    .presentation-btn {
+        Height: 27px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .presentation-button {
+        margin-bottom: 103px;
+    }
+
+}
+
+
+@media (max-width: 767px){
+    .presentation-subtitle {
+        height: 19px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .presentation-blok {
+        margin-bottom: 49px;
+    }
+
+    .item {
+        margin-bottom: 60px;
+    }
+
+    .presentation-img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 13px;
+        object-fit: cover;
+
+    }
+
+    .presentation-name-img {
+        Height: 25px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .presentation-btn {
+        Height: 22px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .presentation-button {
+
+        border-radius: 3.8px;
+        Width: 100%;
+        Height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 22px;
+        margin: 0 auto 144px;
+    }
+}
+
+@media (max-width: 349px){
+
+    .presentation-name-img {
+        Height: 23px;
+        font-size: 16px;
+        margin-bottom: 11px;
+    }
+}

@@ -1,0 +1,50 @@
+
+.header {
+    
+    margin: 33px 0 70px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+
+
+.menu {
+    display: flex;
+}
+
+.menu li + li{
+    margin-left: 61px;
+}
+
+.menu-item {
+    height: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+    text-decoration: none;
+    letter-spacing: -0.03em;
+}
+
+.menu-item:hover {
+    color: black;
+    border-bottom: 1px solid #121212;
+    opacity: 50%;
+}
+
+
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 767px){
+
+}
