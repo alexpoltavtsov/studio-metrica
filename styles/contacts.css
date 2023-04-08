@@ -44,11 +44,7 @@
     background-image: url('../resources/logo-two.png');
 }
 
-.contact-email{
-
-}
-
-.contact-email::before {
+.contact-telegram::before {
     content: '';
     display: block;
     position: absolute;
@@ -59,7 +55,7 @@
     background-image: url('../resources/logo-enveloper.png');
 }
 
-.email {
+.telegram {
     height: 60px;
     font-size: 60px;
     font-weight: 400;
@@ -72,7 +68,7 @@
     letter-spacing: -0.03em;
 }
 
-.email:hover {
+.telegram:hover {
     color: #121212;
     opacity: 100%;
 }
@@ -98,14 +94,14 @@
         line-height: 83px;   
     }
 
-    .email {
+    .telegram {
         height: 60px;
         font-size: 45px;
         line-height: 59px;
          margin-left: 121px;
     }
 
-    .contact-email::before {
+    .contact-telegram::before {
         left: 472px;
     }
     
@@ -113,11 +109,11 @@
 
 @media (max-width: 810px){
 
-    .email {
+    .telegram {
          margin-left: 80px;
     }
 
-    .contact-email::before {
+    .contact-telegram::before {
         left: 430px;
     }
 }
@@ -155,14 +151,14 @@
         line-height: 46px;   
     }
 
-    .email {
+    .telegram {
         height: 60px;
         font-size: 35px;
         line-height: 102px;
          margin-left: 0;
     }
 
-    .contact-email::before {
+    .contact-telegram::before {
         top: 70px;
         left: 1px;
         width: 16px;
