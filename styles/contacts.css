@@ -151,12 +151,19 @@
         line-height: 46px;   
     }
 
+    .phone:hover {
+        color: #121212;
+        opacity: 100%;
+    }
+
     .telegram {
         height: 60px;
         font-size: 35px;
         line-height: 102px;
          margin-left: 0;
+         opacity: 100%;
     }
+    
 
     .contact-telegram::before {
         top: 70px;
