@@ -140,10 +140,29 @@
 
         </div>
         <div class="price-btn">
-          <a class="price-button" href="#" target="_blank">Заказать услугу</a>
+          <button class="btn js-btn">Заказать услугу</button>
+          <div class="js-popup popup">
+            <div class="js-popup__content popup__content">
+              <p class="popup__title">Заказать услугу</p>
+              <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+              <div class="js-popup__close-btn popup__close-btn">
+                <picture>
+                <source media="(max-width: 767px)" srcset="resources/cross-mobile.png">
+                <img src="resources/cross.png" alt="Кнопка закрытия всплывающего окна">
+              </picture>
+              </div>
+              <form class="price-form" action="#">
+                <input class="price-form-input" type="text" placeholder="Имя">
+                <input class="price-form-input" type="text" placeholder="Электронная почта">
+                <input class="price-form-input" type="text" placeholder="Номер телефона">
+                <button class="price-form-btn" type="submit">Отправить</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
     <section class="reviews">
       <div class="container">
         <h2 class="reviews-subtitle">ОТЗЫВЫ</h2>
@@ -320,6 +339,7 @@
       </nav>
     </div>
   </footer>
+  <script src="popup.js"></script>
   <script src="gallery.js"></script>
 </body>
 
