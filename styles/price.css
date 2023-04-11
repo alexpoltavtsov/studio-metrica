@@ -10,22 +10,18 @@
 .price-service {
     margin-bottom: 29px;
     margin-left: 2px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;   
 }
 
 .price-box {
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
-
 }
-
 
 .price-blok {
     position: relative;
     width: 570px;
-
 }
 
 .price-img {
@@ -67,11 +63,11 @@
     border-radius: 5px;
 }
 
-.price-btn{
+.popup-box{
     margin-top: 11px;
 } 
 
-.btn {
+.popup-btn {
     display: block;
     border: 1px solid #AD1818;
     border-radius: 5px;
@@ -117,7 +113,6 @@
     position: relative;
     width: 777px;
     height: 708px;
-    /* overflow-y: scroll; */
     background-color: #FFFFFF;
     border-radius: 10px;
 }
@@ -154,11 +149,11 @@
     cursor: pointer;
 }
 
-.price-form {
+.popup-form {
     margin-left: 55px;
     margin-right: 79px;
 }
-.price-form-input {
+.popup-form-input {
     display: block;
     width: 100%;
     margin-bottom: 40px;
@@ -173,12 +168,11 @@
     opacity: 0.5;
 }
 
-.price-form-input:focus{
+.popup-form-input:focus{
     outline: none;
 }
 
-
-.price-form-btn {
+.popup-form-btn {
     width: 100%;
     height: 67px;
     font-weight: 400;
@@ -203,7 +197,6 @@
 
     .price-box-subtitle {
         padding-top: 149px;
-
     }
     
     .price-blok .next {
@@ -214,7 +207,6 @@
     .price-service {
         margin-bottom: 29px;
         margin-left: 3px;
-        
     }
 
     .price-box{
@@ -248,11 +240,11 @@
         margin-left: 0;
     }
     
-    .price-btn{
+    .popup-box{
         margin-top: 0;
     }
 
-    .btn {
+    .popup-btn {
         Height: 153px;
         line-height: 153px;
         font-size: 30px;  
@@ -272,18 +264,14 @@
 
     .price-box-subtitle {
         padding-top: 78px;
-
     }
-
 
     .price-service {
         font-size: 14px;
         margin-bottom: 17px;
-        margin-left: 5px;
-        
+        margin-left: 5px;   
     }
 
-    
     .price-wrap-name {
         height: 99px;
     }
@@ -307,11 +295,7 @@
         padding-top: 7px;        
     }
     
-    .price-btn{
-        margin-top: 0;
-    }
-
-    .btn {
+    .popup-btn {
         Height: 100px;
         line-height: 100px;
         font-size: 23px;  
@@ -319,7 +303,6 @@
 
     .popup__content{
         height: 611px;
-        /* overflow-y: scroll; */
     }
     
     .popup__title{
@@ -327,8 +310,7 @@
         font-size: 25px;
         line-height: 34px;
         margin-top: 80px;
-        margin-bottom: 11px;
-        
+        margin-bottom: 11px;   
     }
     
     .popup__text{
@@ -347,11 +329,12 @@
         height: 18px;
     }
     
-    .price-form {
+    .popup-form {
         margin-left: 16px;
         margin-right: 24px;
     }
-    .price-form-input {
+    
+    .popup-form-input {
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 30px;
@@ -361,7 +344,7 @@
     
     
     
-    .price-form-btn {
+    .popup-form-btn {
         width: 100%;
         height: 67px;
         font-weight: 400;

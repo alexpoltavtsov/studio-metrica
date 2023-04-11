@@ -17,12 +17,13 @@
 </head>
 
 <body>
-  <!-- <header class="header">
+  <header class="header">
     <div class="container">
-      <nav class="nav">
+      <div class="header-inner">
         <a class="logo">
           <img class="logo-img" src="resources/logo.svg" alt="Логотип сайта" />
         </a>
+        <nav class="nav">
         <ul class="menu">
           <li>
             <a class="menu-item" href="#description-subtitle-wrap">О НАС</a>
@@ -37,9 +38,41 @@
             <a class="menu-item" href="#contacts-subtitle-wrap">КОНТАКТЫ</a>
           </li>
         </ul>
+        <div class="burger-btn-wrap">
+        <div class="js-burger-btn burger-btn">
+          <span></span>
+        </div>
+      </div>
       </nav>
     </div>
-  </header> -->
+    </div>
+    <div class="js-burger burger">
+      <div class="js-burger__content burger__content">
+        <a class="logo">
+          <img class="logo-img burger-logo-img" src="resources/logo.svg" alt="Логотип сайта" />
+        </a>
+        <nav class="burger-nav">
+          <div class="burger-menu">
+              <a class="burger-menu-item" href="#description-subtitle-wrap">О НАС</a>
+              <a class="burger-menu-item" href="#presentation-subtitle-wrap">ПРОЕКТЫ</a>
+              <a class="burger-menu-item" href="#price-service-wrap">УСЛУГИ</a>
+              <a class="burger-menu-item" href="#contacts-subtitle-wrap">КОНТАКТЫ</a>
+            </div>
+        </nav>
+        <div class="burger-contacts-subtitle-wrap">
+          <h2 class="burger-contacts-subtitle">для связи:</h2>
+        </div>
+        <div class="burger-contacts-box">
+          <div class="burger-contact-number-phone">
+            <a class="burger-phone" href="tel:+79358954535">+7 935 895-45-35</a>
+          </div>
+          <div class="burger-contact-telegram">
+            <a class="burger-telegram" href="https://t.me/a_poltavtsov" target="_blank">a_poltavtsov</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   <main>
     <section class="description">
       <div class="container">
@@ -62,6 +95,8 @@
         <a class="description-button" href="#service">Посмотреть услуги</a>
       </div>
     </section>
+
+
     <section class="presentation">
       <div class="container">
         <div id="presentation-subtitle-wrap">
@@ -97,6 +132,8 @@
         <a class="presentation-button" href="https://metrika-ds.ru/#slide-1" target="_blank">Смотреть все проекты</a>
       </div>
     </section>
+
+
     <section class="price">
       <div class="container">
         <div class="price-box-subtitle">
@@ -105,7 +142,6 @@
           </div>
         </div>
         <div class="price-box">
-
           <div class="price-blok">
             <img class="price-img" src="resources/service1.jpg" alt="Интерьер гостинной комнаты" />
             <div class="price-wrap-name">
@@ -113,7 +149,6 @@
             </div>
             <p class="price-tag">от 2500₽/м²</p>
           </div>
-
           <div class="price-blok">
             <img class="price-img" src="resources/service2.jpg" alt="Интерьер гостинной комнаты" />
             <div class="price-wrap-name">
@@ -121,7 +156,6 @@
             </div>
             <p class="price-tag">от 3000₽/м²</p>
           </div>
-
           <div class="price-blok">
             <img class="price-img" src="resources/service3.jpg" alt="Интерьер гостинной комнаты" />
             <div class="price-wrap-name">
@@ -129,7 +163,6 @@
             </div>
             <p class="price-tag">от 30 000₽/мес</p>
           </div>
-
           <div class="price-blok">
             <img class="price-img" src="resources/service4.jpg" alt="Интерьер гостинной комнаты" />
             <div class="price-wrap-name">
@@ -137,10 +170,9 @@
             </div>
             <p class="price-tag">5% от стоимости</p>
           </div>
-
         </div>
-        <div class="price-btn">
-          <button class="btn js-btn">Заказать услугу</button>
+        <div class="popup-box">
+          <button class="popup-btn js-popup-btn">Заказать услугу</button>
           <div class="js-popup popup">
             <div class="js-popup__content popup__content">
               <p class="popup__title">Заказать услугу</p>
@@ -151,17 +183,18 @@
                 <img src="resources/cross.png" alt="Кнопка закрытия всплывающего окна">
               </picture>
               </div>
-              <form class="price-form" action="#">
-                <input class="price-form-input" type="text" placeholder="Имя">
-                <input class="price-form-input" type="text" placeholder="Электронная почта">
-                <input class="price-form-input" type="text" placeholder="Номер телефона">
-                <button class="price-form-btn" type="submit">Отправить</button>
+              <form class="popup-form" action="#">
+                <input class="popup-form-input" type="text" placeholder="Имя">
+                <input class="popup-form-input" type="text" placeholder="Электронная почта">
+                <input class="popup-form-input" type="text" placeholder="Номер телефона">
+                <button class="popup-form-btn" type="submit">Отправить</button>
               </form>
             </div>
           </div>
         </div>
       </div>
     </section>
+
 
     <section class="reviews">
       <div class="container">
@@ -213,8 +246,8 @@
       </div>
     </section>
 
-    <section class="project-gallery">
 
+    <section class="project-gallery">
       <div class="gallery">
         <div class="gallery__slides">
           <div class="gallery__slide gallery__slide_active">
@@ -234,8 +267,6 @@
               </div>
             </div>
           </div>
-
-
           <div class="gallery__slide">
             <div class="gallery-img-txt-wrapper">
               <div class="container">
@@ -252,7 +283,6 @@
               </div>
             </div>
           </div>
-
           <div class="gallery__slide">
             <div class="gallery-img-txt-wrapper">
               <div class="container">
@@ -269,7 +299,6 @@
               </div>
             </div>
           </div>
-
           <div class="gallery__slide">
             <div class="gallery-img-txt-wrapper">
               <div class="container">
@@ -295,10 +324,9 @@
             </div>
           </div>
         </div>
-
       </div>
-
     </section>
+
 
     <section class="contacts">
       <div class="container">
@@ -316,6 +344,8 @@
       </div>
     </section>
   </main>
+
+
   <footer class="footer">
     <div class="container">
       <nav class="footer-nav">
@@ -339,6 +369,8 @@
       </nav>
     </div>
   </footer>
+<script src="burger-btn.js"></script>
+  <script src="burger.js"></script>
   <script src="popup.js"></script>
   <script src="gallery.js"></script>
 </body>
