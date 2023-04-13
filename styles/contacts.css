@@ -48,11 +48,11 @@
     content: '';
     display: block;
     position: absolute;
-    top: -34px;
+    top: -40px;
     left: 578px;
-    width: 20px;
-    height: 16px;
-    background-image: url('../resources/logo-enveloper.png');
+    width: 24px;
+    height: 20px;
+    background-image: url('../resources/icons8-телеграм-24.png');
 }
 
 .telegram {
@@ -168,9 +168,7 @@
     .contact-telegram::before {
         top: 70px;
         left: 1px;
-        width: 16px;
-        height: 12px;
-        background-image: url('../resources/logo-enveloper-mobile.png');
+        background-image: url('../resources/icons8-телеграм-24.png');
         background: cover;
     }
 }
