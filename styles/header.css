@@ -13,7 +13,6 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 42px;
 }
 
@@ -45,36 +44,42 @@
 
 .burger-btn{
     display: none;
+    z-index: 2000;
 }
 
 .burger{
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
     width: 100%;
     height: 100%;
+    z-index: 1000;
+    visibility: hidden;
     display: flex;
     justify-content: end;
-    z-index: 10;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
-    transition: all 0.5s ease;
-    /* opacity: 0; */
-    /* visibility: hidden; */
 }
 
 .burger_open{
-    /* opacity: 1; */
-    /* visibility: visible; */
-    right: 0;
+    visibility: visible; 
 }
 
 .burger__content{
-    z-index: 17;
-    width: 80%;
+    width: 274px;
     height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
     padding-left: 50px;
     padding-top: 100px;
+    transition: transform 0.3s linear;
+    transform: translateX(100%);
     background-color: #fff;
+}
+
+.burger_open .burger__content{
+    transform: translateX(0);
 }
 
 .burger-logo-img{
@@ -131,37 +136,58 @@
 
 
 
-@media (max-width: 1199px) {
-
-    
-
-  
 
 
-
-
-@media (max-width: 767px){
+@media (max-width: 1199px){
 
     .menu{
         display: none;
     }
 
     .burger-btn {
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 10;
+        position: relative;
         display: block;
-        width: 40px;
-        height: 20px;
-        background: url('../resources/burger-tablet.png');
-        background-repeat: no-repeat;
+        width: 50px;
+        background: none;
+        border: none;
     }
 
+    .burger-btn::before,
+    .burger-btn::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .burger-btn_open::before,
+    .burger-btn_open::after {
+        display: none;
+    }
+
+    .burger-btn::after {
+        top: 6px;
+        width: 31px;
+    }
+
+
     .burger-btn_open{
-        z-index: 15;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: 34px;
+        height: 34px;
         background: url('../resources/cross-mobile.png');
         background-repeat: no-repeat;
-        background-color: #FFFFFF;
     }
 } 
+
+
+
+
+@media (max-width: 767px) {
+
+}
