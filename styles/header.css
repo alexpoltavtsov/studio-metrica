@@ -42,10 +42,7 @@
     opacity: 50%;
 }
 
-.burger-btn{
-    display: none;
-    z-index: 2000;
-}
+
 
 .burger{
     position: fixed;
@@ -59,6 +56,11 @@
     justify-content: end;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
+}
+
+.burger-btn{
+    display: none;
+    z-index: 2000;
 }
 
 .burger_open{
