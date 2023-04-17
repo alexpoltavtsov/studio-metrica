@@ -21,7 +21,11 @@
     <div class="container">
       <div class="header-inner">
         <a class="logo">
-          <img class="logo-img" src="resources/logo.svg" alt="Логотип сайта" />
+          <picture>
+            <source media="(max-width: 500px)" srcset="resources/logo-mobile..svg" />
+            <img class="logo-img" src="resources/logo.svg" alt="Логотип сайта" />
+          </picture>
+
         </a>
         <nav class="nav">
           <ul class="menu">
@@ -189,9 +193,9 @@
                 </picture>
               </div>
               <form class="popup-form" action="#">
-                <input class="popup-form-input" type="text" placeholder="Имя" />
-                <input class="popup-form-input" type="text" placeholder="Электронная почта" />
-                <input class="popup-form-input" type="text" placeholder="Номер телефона" />
+                <input class="popup-form-input" type="text" name="name" placeholder="Имя" />
+                <input class="popup-form-input" type="email" name="email" placeholder="Электронная почта" />
+                <input class="popup-form-input" type="tel" name="phone" placeholder="Номер телефона" />
                 <button class="popup-form-btn" type="submit">
                   Отправить
                 </button>

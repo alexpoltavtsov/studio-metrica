@@ -5,7 +5,7 @@
 
 .header {
     
-    margin: 33px 0 70px;
+    margin: 28px 0 70px;
 
 }
 
@@ -16,10 +16,13 @@
     margin-bottom: 42px;
 }
 
-
+.logo{
+    padding-top: 5px;
+}
 
 .menu {
     display: flex;
+    padding-top: 5px;
 }
 
 .menu li + li{
@@ -192,4 +195,17 @@
 
 @media (max-width: 767px) {
 
+    .header-inner {
+        margin-bottom: -13px;
+    } 
+
+    .burger-btn::before {
+        width: 38px;
+        top: 7px;
+    }
+
+    .burger-btn::after {
+        top: 12px;
+        width: 23px;
+    }
 }

@@ -63,10 +63,6 @@
         margin-right: 0;
     }
 
-    .review-column:nth-child(2n) {
-        width: calc(50% - 5px);
-    }
-    
     .review-column:last-child:nth-child(odd) {
         width: 694px;
         margin-bottom: 40px;
@@ -101,10 +97,6 @@
         width: 100%;
     }
 
-    .review-column:nth-child(2n) {
-        width: 100%;
-    }
-    
     .review-column:last-child:nth-child(odd) {
         width: 100%;
         margin-bottom: 2px;

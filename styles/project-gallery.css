@@ -131,7 +131,7 @@ opacity: 50%;
     }
 
     .gallery__controls-wrapper{
-        top: 347px;
+        top: 340px;
         padding-left: 35px;
     }
 
@@ -175,7 +175,7 @@ opacity: 50%;
     }
 
     .gallery__controls-wrapper{
-        top: 187px;
+        top: 183px;
         padding-left: 0;
     }
 
@@ -185,7 +185,7 @@ opacity: 50%;
     }
 
     .gallery__control-next{
-        margin-left: 0;
+        width: 24px;
     }
 
 } 
