@@ -183,6 +183,7 @@
     letter-spacing: -0.03em;
     color: #FFFFFF;
     background-color: #AD1818;
+    border: none ;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -261,6 +262,11 @@
 
     .price-blok{
         width: 100%;
+    }
+
+    .price-img{
+        width: 100%;
+        height: auto;
     }
 
     .price-box-subtitle {
@@ -361,8 +367,3 @@
 }
 
 
-@media (max-width: 500px){
-    .price-img{
-        height: 240px;
-    }
-}
