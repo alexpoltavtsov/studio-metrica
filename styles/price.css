@@ -181,6 +181,7 @@
     font-size: 20px;
     line-height: 27px;
     margin-top: 40px;
+    margin-bottom: 86px;
     font-family: 'Manrope', sans-serif;
     letter-spacing: -0.03em;
     color: #FFFFFF;
@@ -310,10 +311,6 @@
         font-size: 23px;  
     }
 
-    .popup__content{
-        height: 611px;
-    }
-    
     .popup__title{
         height: 34px;
         font-size: 25px;
@@ -349,10 +346,6 @@
         margin-bottom: 30px;
     }
 
-    
-    
-    
-    
     .popup-form-btn {
         width: 100%;
         height: 67px;
@@ -360,6 +353,7 @@
         font-size: 20px;
         line-height: 27px;
         margin-top: 30px;
+        margin-bottom: 80px;
         letter-spacing: -0.03em;
         color: #FFFFFF;
         background-color: #AD1818;
